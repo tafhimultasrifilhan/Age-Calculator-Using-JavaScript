@@ -29,6 +29,5 @@ function cal(){
 		var ageMonth=(m-month);
 		var ageYear=(y-year);
 	}
-	alert("You are "+ageYear+" years "+ageMonth+" months "+ageDate+" days old")
-	console.log("You are "+ageYear+" years "+ageMonth+" months "+ageDate+" days old")
+	document.getElementById("age").value = "Age: "+ageYear+" years "+ageMonth+" months "+ageDate+" days";
 }	
